@@ -12,7 +12,7 @@ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manife
 kubectl create secret generic -n metallb-system memberlist --from-literal=secretkey="$(openssl rand -base64 128)"
 ```
 
-* Change your floating IP at metalLB_cm.yaml
+* Change your floating IP at <metalLB_cm.yaml>
 
 ```
 kubectl create -f metalLB/metalLB_cm.yaml
