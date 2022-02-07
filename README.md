@@ -13,5 +13,5 @@ kubectl create secret generic -n metallb-system memberlist --from-literal=secret
 ```
 
 ```
-kubectl create -f metalLB_cm.yaml
+kubectl create -f metalLB/metalLB_cm.yaml
 ```
